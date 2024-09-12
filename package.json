@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"prod": "node app.js"
+		"test": "node app.js"
 	},
   "dependencies": {
     "express": "^4.21.0"
