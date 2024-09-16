@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Title</title>
+
+		<link rel="stylesheet" href="reveal/dist/reset.css">
+		<link rel="stylesheet" href="reveal/dist/reveal.css">
+		<!-- <link rel="stylesheet" href="reveal/dist/theme/_white-personel.css"> -->
+		<link rel="stylesheet" href="reveal/dist/theme/_sky-personel.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="reveal/plugin/highlight/base_hl.css">
+
+		<!-- Templates -->
+		<script src="reveal/jquery-3.7.1.min.js"></script>
+		<script src="reveal/templates.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-state="make-it-pop">
+					<h2>Title</h2>
+					<small name="autor">
+						Тимофеев Александр Алексеевич
+					</small>
+					<!-- <a href="google.com" style="text-align: down;">Ссылка</a> -->
+				</section>
+
+				<!-- ₽ -->
+				<section><h3></h3>
+				</section>
+				
+				<section><h3></h3>
+					<pre><code data-line-numbers=""><script type="text/template">
+					</script></code></pre>
+
+					<pre><code src="files" src-data="" data-line-numbers=""></code></pre>
+
+					<div data-markdown><textarea data-template>
+					</textarea></div>
+
+					<div class="r-stack">
+						<div class="fragment fade-out" data-fragment-index="0">
+						</div>
+						<div class="fragment current-visible" data-fragment-index="0">
+						</div>
+					</div>
+
+					<div class="r-hstack">
+						<div class="h-mar h-mar-r1">
+						</div>
+						<div class="h-mar h-mar-l1">
+						</div>
+					</div>
+				</section>
+				
+				<section data-markdown=""></section>
+
+				<section data-markdown>
+					<textarea data-template>
+					</textarea>
+				</section>
+				
+				<section><h3>Fragments</h3>
+					<div class="r-stack">
+						<div class="fragment fade-out" data-fragment-index="1">
+							<div>page 1 part 1</div>
+							<div class="fragment" data-fragment-index="0">page 1 part 2</div>
+						</div>
+						<div class="fragment fade-in" data-fragment-index="1">
+							<div class="fragment fade-out" data-fragment-index="10">
+								<div>page 2 part 1</div>
+								<div class="fragment" data-fragment-index="2">page 2 part 2</div>
+								<div class="fragment" data-fragment-index="3">page 2 part 3</div>
+							</div>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="10">page 3</div>
+						<div class="fragment current-visible">page 4</div>
+						<div class="fragment">
+							<div class="fragment" data-fragment-index="0">last page part 1</div>
+							<div class="fragment">last page part 2</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="reveal/fill-codes.js"></script>
+
+		<script src="reveal/dist/reveal.js"></script>
+		<script src="reveal/plugin/notes/notes.js"></script>
+		<script src="reveal/plugin/markdown/markdown.js"></script>
+		<script src="reveal/plugin/zoom/zoom.js"></script> <!-- win: alt+click -->
+		<script src="reveal/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				width: 1200,
+				transition: 'fade',
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom ]
+			});
+		</script>
+	</body>
+</html>
