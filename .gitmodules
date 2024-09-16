@@ -1,3 +1,3 @@
 [submodule "reveal"]
 	path = reveal
-	url = git@github.com:aatutor/clear_reveal4lections.git
+	url = https://github.com/aatutor/clear_reveal4lections.git
